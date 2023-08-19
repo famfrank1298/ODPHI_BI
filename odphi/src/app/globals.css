@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+main {
+  background-color: rgb(181, 180, 180);
+}
+
+.red-background-image {
+  background-image: url("/red-banner-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CAROUSEL */
+.image-carousel img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade img {
+  opacity: 0.2;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+/* ONE CULTUER ANY RACE */
+.mott_header {
+  text-align: center;
+  margin: 0 auto;
+  background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #1d0202, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80%{
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #1a0101;
+  }
+}
+
+/* PILLAR */
+.cta-background {
+  background-size: cover;
+  background-position: center center;
+  bottom: 0;
+  filter: blur(50px);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.cta {
+  background: #333;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+     
+.cta:hover img {
+  top: -10%;
+  filter: brightness(70%);
+}
+
+.cta:hover .text{
+  bottom: 0;
+}
+  
+.cta .pillar-img {
+  bottom: 0;
+  filter: brightness(100%);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.5s ease-in-out;
+  width: 115%;
+}
+  
+.cta .text {
+  bottom: -40%;
+  padding: 15px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+
+.cta .text h2 {
+  color: #fff;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.cta .text p {
+  color: #fff;
+  font-weight: 300;
+}
