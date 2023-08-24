@@ -15,6 +15,7 @@ export default function Brothers() {
     const brothers = broList;
     const founding = broList.filter(bro => bro["greek-line"] ===  "Founding Brothers");
     const charter = broList.filter(bro => bro["greek-line"] ===  "Charter Brothers");
+    const active = broList.filter(bro => bro["status"] === "active");
 
 
     return (
@@ -22,10 +23,12 @@ export default function Brothers() {
         {/* <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>OUR FOUNDING BROTHERS</div> */}
         {/* <div className={inter.className + " text-[20px] w-[45rem] line-titles ml-[1rem]"}>THE I.N.F.A.M.O.U.S Line</div> */}
         {/* <FoundingCard info={founding} />; */}
-        <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles"}>ACTIVE MEMBERS</div>
-        <div className="text-[20px] text-center">CURRENTLY CONSIST OF 9 MEMBERS</div>
-        <div className="activeGallery">
-            <ActiveMembers/>
+        <div className="activeContainer">
+            <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles"}>ACTIVE MEMBERS</div>
+            <div className="text-[20px] text-center">CURRENTLY CONSIST OF {active.length} MEMBERS</div>
+            <div className="activeGallery">
+                <ActiveMembers info={active}/>
+            </div>
         </div>
     </div>
     )
