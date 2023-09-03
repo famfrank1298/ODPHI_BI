@@ -11,7 +11,7 @@ export default function Header() {
             className={ jakarta.className + ` px-6 flex h-[5rem] items-center` } >
             <Link href="/"><img src="/odp_0.png" alt="ODPHI Logo" className="w-[3rem] ml-5" /></Link>
             <Link href="/gallery" className="ml-auto font-light text-white text-[17px]"><button> Gallery </button></Link>
-            <button className="ml-7 font-light text-white text-[17px]"> Services </button>
+            <Link href="/serviceEvents"><button className="ml-7 font-light text-white text-[17px]"> Services </button></Link>
             <Link href="/members"><button className="cursor-pointer ml-7 mr-5 font-medium text-white hover:text-[#012898] text-[17px] border-[1px] hover:bg-white hover:rounded-[5px] px-3 py-[0.5rem] transition-all"> Members </button></Link>
             </nav>
         </header>
