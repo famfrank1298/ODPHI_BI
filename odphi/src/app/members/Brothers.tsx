@@ -2,34 +2,38 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import "./Brothers.css"
+import "./members.css"
 import broList from "./bro.json"
 import FoundingCard from "./FoundingCard"
+import CharterCard from "./CharterCard"
+import MuCard from "./MuCard"
+import NuCard from "./NuCard"
+import XiCard from "./XiCard"
 import ActiveMembers from "./ActiveMembers"
-
-import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
-const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
-const inter = Manrope({ subsets: ["latin"] });
 
 export default function Brothers() {
     const brothers = broList;
     const founding = broList.filter(bro => bro["greek-line"] ===  "Founding Brothers");
     const charter = broList.filter(bro => bro["greek-line"] ===  "Charter Brothers");
+    const mu = broList.filter(bro => bro["greek-line"] ===  "MU");
+    const nu = broList.filter(bro => bro["greek-line"] ===  "NU");
+    const xi = broList.filter(bro => bro["greek-line"] ===  "XI");
     const active = broList.filter(bro => bro["status"] === "active");
 
 
     return (
     <div>
-        {/* <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>OUR FOUNDING BROTHERS</div> */}
-        {/* <div className={inter.className + " text-[20px] w-[45rem] line-titles ml-[1rem]"}>THE I.N.F.A.M.O.U.S Line</div> */}
-        {/* <FoundingCard info={founding} />; */}
-        <div className="activeContainer">
-            <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles"}>ACTIVE MEMBERS</div>
-            <div className="text-[20px] text-center">CURRENTLY CONSIST OF {active.length} MEMBERS</div>
-            <div className="activeGallery">
-                <ActiveMembers info={active}/>
-            </div>
+        <div className="found-charter-grid">
+            <FoundingCard info={founding} />
+            <CharterCard info={charter} />
         </div>
+        <p className="text-center">____________________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <MuCard info={mu}/>
+        <p className="text-center">____________________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <NuCard info={nu}/>
+        <p className="text-center">____________________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <XiCard info={xi}/>
+        <p className="text-center">____________________________________________________________________________________________________________________________________________________________________________________________________</p>
     </div>
     )
 }

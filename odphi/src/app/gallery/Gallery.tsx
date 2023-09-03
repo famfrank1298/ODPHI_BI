@@ -16,8 +16,8 @@ export default function Gallery(props: { images: string[]; }) {
             setTimeout(() => {
               setCurrentImageIndex((prevIndex) => (prevIndex + 1) % props.images.length);
               setFade(false); // Reset the fading effect
-            }, 300); // Wait for 300ms before changing the image
-          }, 5000);
+            }, 500); // Wait for 300ms before changing the image
+          }, 2000);
 
         return () => {
         clearInterval(timer);

@@ -108,8 +108,9 @@
         "sir-name": "Sir Xochipilli",
         "pic-link": "/members/kyleR.JPG",
         "cross-date": "May 4th, 2022",
-        "status": "inactive",
-        "position": "Alumni"
+        "status": "active",
+        "position": "Alumni",
+        "major": "Applied Psycology"
     },
     {
         "name": "Alexander Diaz",
@@ -120,7 +121,8 @@
         "pic-link": "/members/alexD.JPG",
         "cross-date": "May 4th, 2022",
         "status": "active",
-        "position": "Vice President"
+        "position": "Vice President",
+        "major": "Political Science"
     },
     {
         "name": "Diego Castillo",
@@ -131,7 +133,8 @@
         "pic-link": "/members/diegoC.JPG",
         "cross-date": "May 4th, 2022",
         "status": "active",
-        "position": "Secretary"
+        "position": "Secretary",
+        "major": "Marketing"
     },
     {
         "name": "Francisco Hernendez",
@@ -142,7 +145,8 @@
         "pic-link": "/members/fransiscoH.JPG",
         "cross-date": "May 4th, 2022",
         "status": "active",
-        "position": "Sargeant of Arms"
+        "position": "Sargeant of Arms",
+        "major": "Criminal Justice and Law"
     },
     {
         "name": "Frank Mensah",
@@ -153,7 +157,8 @@
         "pic-link": "/members/frankM.JPG",
         "cross-date": "May 4th, 2022",
         "status": "active",
-        "position": "President"
+        "position": "President",
+        "major": "Computer Science"
     },
     {
         "name": "Hugo [Insert Last Name]",
@@ -161,18 +166,18 @@
         "number": 51,
         "greek-line": "NU",
         "sir-name": "[Insert sir name]",
-        "pic-link": "/members/charter.webp",
+        "pic-link": "/members/hugo.JPG",
         "cross-date": "[Insert Crossing Date]",
-        "status": "inactive",
+        "status": "active",
         "position": "Regional Director of Academics"
     },
     {
-        "name": "Jose [Insert Last Name]",
+        "name": "Jose Olivares",
         "line-name": "[Insert Line Name]",
         "number": 52,
         "greek-line": "NU",
         "sir-name": "Sir [Insert Last Name]",
-        "pic-link": "/members/charter.webp",
+        "pic-link": "/members/joseO.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "inactive",
         "position": "N/A"
@@ -181,9 +186,9 @@
         "name": "Angel Tochimani",
         "line-name": "[Insert Line Name]",
         "number": 53,
-        "greek-line": "MU",
+        "greek-line": "NU",
         "sir-name": "Sir Shun",
-        "pic-link": "/members/frankM.JPG",
+        "pic-link": "/members/angelT.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
         "position": "Treasurer"
