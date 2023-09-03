@@ -1,0 +1,24 @@
+import { useEffect, useState } from 'react';
+import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
+const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const inter = Manrope({ subsets: ["latin"] });
+
+export default function QuickFacts() {
+
+  return (
+    <div className='bg-img-qf'>
+      <div className={inter.className + "leading-[5rem] text-[50px] font-semibold section-header mt-[10rem] text-center"}>Quick Facts</div>
+      <div className="text-center mt-[1rem] text-[20px]">
+        <b>National Flower:</b> Silver Rose<br/>
+        <b>National Mascot:</b> Silver Knight<br/>
+        <b>Philanthropy:</b> Wounded Warriors<br/>
+        <b>National Slogan:</b> "One Culture, Any Race"<br/>
+        <b>ODPHI Founding Date:</b> November 25th, 1987<br/>
+        <b>UIC Beta Iota Founding Date:</b> April 11th, 2011<br/>
+        <b>Pillars:</b> Unity, Honesty, Integrity, and Leadership<br/>
+        <b>National Motto:</b> "Crescit Eundo"... It Grows as it Goes<br/>
+        <b>National Colors:</b> Scarlet, Silver, and Black (supporting color)<br/>
+      </div>
+    </div>
+  )
+}

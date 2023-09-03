@@ -18,7 +18,7 @@
 }
 
 main {
-  background-color: rgb(181, 180, 180);
+  background-color: rgb(239, 238, 238);
 }
 
 .red-background-image {
@@ -29,6 +29,36 @@ main {
 
 /* CAROUSEL */
 .image-carousel img {
+  background-size:cover;
+  transition: opacity 0.5s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.fade img {
+  opacity: 0.2;
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+/* factsSection */
+.factsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* QuickFacts */
+.bg-img-qf {
+  margin: auto;
+  padding: 2rem;
+  box-shadow: rgba(60, 1, 1, 0.4) 0px 0px 0px 3px, rgba(60, 1, 1, 0.3) 0px 0px 0px 6px, rgba(60, 1, 1, 0.2) 0px 0px 0px 9px, rgba(60, 1, 1, 0.1) 0px 0px 0px 12px, rgba(60, 1, 1, 0.05) 0px 0px 0px 15px;
+}
+
+/* CenterCAROUSEL */
+.hs-carousel {
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.hs-carousel img {
   background-repeat: no-repeat;
   background-size: cover;
   transition: opacity 0.5s ease-in-out;
@@ -39,12 +69,23 @@ main {
   animation: fadeIn 0.2s ease-in-out forwards;
 }
 
-/* ONE CULTUER ANY RACE */
-.mott_header {
+/* Gallery */
+.gallery {
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.gallery img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.section-header {
   text-align: center;
   margin: 0 auto;
   background: 50% 100% / 50% 50% no-repeat
-              radial-gradient(ellipse at bottom, #1d0202, transparent, transparent);
+              radial-gradient(ellipse at bottom, rgb(240, 46, 46), transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -64,6 +105,18 @@ main {
   40% {
     text-shadow: 0 0 8px #1a0101;
   }
+}
+
+.mott-header {
+  text-align: center;
+  margin: 0 auto;
+  background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, rgb(60, 1, 1), transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
 }
 
 /* PILLAR */
@@ -93,11 +146,11 @@ main {
   height: 450px;
   overflow: hidden;
   position: relative;
-  width: 300px;
+  width: 400px;
 }
      
 .cta:hover img {
-  top: -10%;
+  top: -20%;
   filter: brightness(70%);
 }
 
@@ -117,7 +170,7 @@ main {
 }
   
 .cta .text {
-  bottom: -40%;
+  bottom: -30%;
   padding: 15px;
   position: absolute;
   transition: 0.5s ease-in-out;
