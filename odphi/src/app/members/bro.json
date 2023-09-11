@@ -98,7 +98,8 @@
         "pic-link": "/members/joseM.JPG",
         "cross-date": "[Insert Date]",
         "status": "active",
-        "position": "Service"
+        "position": "Service",
+        "major": "Mechanical Engieering"
     },
     {
         "name": "Kyle Romero",
@@ -180,7 +181,8 @@
         "pic-link": "/members/joseO.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "inactive",
-        "position": "N/A"
+        "position": "N/A",
+        "major": "Business"
     },
     {
         "name": "Angel Tochimani",
@@ -191,7 +193,8 @@
         "pic-link": "/members/angelT.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
-        "position": "Treasurer"
+        "position": "Treasurer",
+        "major": "Applied Psycology"
     },
     {
         "name": "Jonathan Reyes",
@@ -202,6 +205,7 @@
         "pic-link": "/members/jonathanR.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
-        "position": "Academics"
+        "position": "Academics",
+        "major": "Kinesiology"
     }
 ]

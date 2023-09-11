@@ -3,6 +3,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 import Header from "../Header";
 import Gallery from "../gallery/Gallery";
+import Footer from "../Footer";
 
 export default function Home() {
 
@@ -44,6 +45,7 @@ export default function Home() {
         <img src="serviceLogos/careforfriends_logo.jpg"/>
         <img src="serviceLogos/forestpreserve_logo.png"/>
       </div>   
+      <Footer/>
     </main>
   )
 }

@@ -6,6 +6,7 @@ import QuickFacts from './QuickFacts';
 import CenterCarousel from './CenterCarousel';
 import Pillar from './Pillar';
 import Header from "./Header";
+import Footer from "./Footer"
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
@@ -31,6 +32,8 @@ At Omega Delta Phi, we are more than just a fraternity; we are a lifelong commit
         <QuickFacts/>
         <CenterCarousel/>
       </div>
+
+      <Footer/>
     </main>
   )
 }

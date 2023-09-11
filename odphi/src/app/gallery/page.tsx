@@ -3,6 +3,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 import Header from "../Header";
 import Gallery from "./Gallery";
+import Footer from "../Footer";
 
 export default function Home() {
 
@@ -67,6 +68,7 @@ export default function Home() {
         <Gallery images={goofy}/>
 
         <p className={inter.className + " text-[25px] mb-[2rem] mt-[5rem] ml-[5rem] mr-[5rem] text-center"}><i>"And that's on Joe Cereceres"</i> - Jose Mendez</p>
+        <Footer/>
     </main>
   ) 
 }

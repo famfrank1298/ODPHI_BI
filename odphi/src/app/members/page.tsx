@@ -3,6 +3,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 import Brothers from "./Brothers";
 import Header from "../Header";
+import Footer from "../Footer";
 
 export default function Members() {
     return (
@@ -10,6 +11,7 @@ export default function Members() {
         <Header/>
         <div className={inter.className + " leading-[5rem] text-[60px] w-[55rem] font-semibold absolute mott-header"}>ONE CULTURE, ANY RACE</div>
         <Brothers/>
+        <Footer/>
     </main>
     )
 }
