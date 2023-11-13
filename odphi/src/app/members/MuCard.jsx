@@ -4,6 +4,8 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
 export default function MuCard(props) {
+
+  const muList = ({props}) => {}
   return (
     <div>
       <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>{props.info[0]["greek-line"]} Line</div>
