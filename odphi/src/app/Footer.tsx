@@ -1,11 +1,12 @@
 
+import Image from "next/image"
 import "./Footer.css"
 
 export default function Footer() {
 
   return (
     <footer className="footer">
-      <img src="/odp_logo.png" alt="ODPHI LOGO"/>
+      <Image src="/odp_logo.png" alt="ODPHI LOGO"/>
     
       <div className="row">
         <ul>

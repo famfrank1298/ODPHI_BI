@@ -12,6 +12,7 @@ import LambdaCard from "./LambdaCard"
 import MuCard from "./MuCard"
 import NuCard from "./NuCard"
 import XiCard from "./XiCard"
+import Image from "next/image";
 
 export default function Brothers() {
     const founding = broList.filter(bro => bro["greek-line"] ===  "Founding Brothers");
@@ -37,7 +38,7 @@ export default function Brothers() {
         <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
         
         <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>Next Line Incoming!</div>
-        <img src="/members/incoming.JPG" className="incoming pulse"/>
+        <Image src="/members/incoming.JPG" className="incoming pulse" alt="New Line Incoming"/>
 
     </div>
     )

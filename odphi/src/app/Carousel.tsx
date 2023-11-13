@@ -1,14 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
+import Image from 'next/image';
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
 export default function Carousel() {
-    const images = [
+    const images = useMemo (() => [
         '/carousel/img1.png',
         '/carousel/img2.png',
         '/carousel/img3.png',
-    ];
+    ], []);
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [fade, setFade] = useState(false);
@@ -29,7 +30,7 @@ export default function Carousel() {
 
     return (
         <div className={`image-carousel ${fade ? 'fade' : ''}`}>
-            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }

@@ -1,18 +1,19 @@
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import Image from 'next/image';
 import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
 export default function CenterCarousel() {
-    const images = [
+    const images = useMemo (() => [
         'homeScreen/hs-center1.jpg',
         'homeScreen/hs-center2.JPG',
         'homeScreen/hs-center3.jpg',
         'homeScreen/hs-center4.jpg',
         'homeScreen/hs-center5.JPG',
         'homeScreen/hs-center6.JPG',
-    ];
+    ], []);
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [fade, setFade] = useState(false);
@@ -33,7 +34,7 @@ export default function CenterCarousel() {
 
     return (
         <div className={`hs-carousel ${fade ? 'fade' : ''}`}>
-            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }

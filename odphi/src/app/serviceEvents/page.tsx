@@ -4,6 +4,7 @@ const inter = Manrope({ subsets: ["latin"] });
 import Header from "../Header";
 import Gallery from "../gallery/Gallery";
 import Footer from "../Footer";
+import Image from "next/image";
 
 export default function Home() {
 
@@ -38,13 +39,13 @@ export default function Home() {
       <div className={inter.className + " leading-[5rem] text-[30px] font-semibold section-header"}>Partners</div>
       <p className={inter.className + " text-[20px] mb-[2rem] ml-[10rem] mr-[10rem] text-center"}>We proudly highlight some of the esteemed organizations we&apos;ve collaborated with, participating in their inspiring events with great enthusiasm. We look forward to nurturing these connections and forging new partnerships in the future to further our shared goals.</p>
       <div className="partner-section">
-        <img src="serviceLogos/cardsforkidz_logo.jpg"/>
-        <img src="serviceLogos/12thward_logo.png"/>
-        <img src="serviceLogos/ramracing_logo.png"/>
-        <img src="serviceLogos/greatlakes_logo.png"/>
-        <img src="serviceLogos/gcfd_logo.png"/>
-        <img src="serviceLogos/careforfriends_logo.jpg"/>
-        <img src="serviceLogos/forestpreserve_logo.png"/>
+        <Image src="serviceLogos/cardsforkidz_logo.jpg" alt="Cards for Kidz"/>
+        <Image src="serviceLogos/12thward_logo.png" alt="12thWard"/>
+        <Image src="serviceLogos/ramracing_logo.png" alt="RumRacing"/>
+        <Image src="serviceLogos/greatlakes_logo.png" alt="GreatLakes"/>
+        <Image src="serviceLogos/gcfd_logo.png" alt="GCFD"/>
+        <Image src="serviceLogos/careforfriends_logo.jpg" alt="CareforFriends"/>
+        <Image src="serviceLogos/forestpreserve_logo.png" alt="ForestPreserve"/>
       </div>   
       <Footer/>
     </main>

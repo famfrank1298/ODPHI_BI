@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
+import Image from 'next/image';
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function Gallery(props: { images: string[]; }) {
 
     return (
         <div className={`gallery ${fade ? 'fade' : ''}`}>
-            <img src={props.images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <Image src={props.images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }
