@@ -17,7 +17,7 @@ export default function Pillar() {
                 <img className="pillar-img" src="/pillars/honesty.JPG" alt="HONESTY"/>
                 <div className="text">
                     <h2 className="section-header font-semibold text-[20px]">HONESTY</h2>
-                    <p>A Knight of Omega Delta Phi is a honest. Honesty establishes trust, transparency, and authenticity within relationships and interactions, creating a foundation for open communication and genuine connections among individuals</p>
+                    <p>A Knight of Omega Delta Phi is honest. Honesty establishes trust, transparency, and authenticity within relationships and interactions, creating a foundation for open communication and genuine connections among individuals.</p>
                 </div>
                 </div>
             </div>
