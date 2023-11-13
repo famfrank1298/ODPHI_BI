@@ -32,17 +32,6 @@
     }
   }
 
-
-/* ACTIVE MEMBERS */
-
-.activeContainer {
-    width: 100%;
-    margin: 0;
-}
-.activeGallery {
-    margin: 4rem auto;
-}
-
 /* found-charter-grid */
 .found-charter-grid {
   display: grid;

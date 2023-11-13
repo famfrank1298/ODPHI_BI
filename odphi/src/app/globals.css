@@ -19,6 +19,7 @@
 
 main {
   background-color: rgb(239, 238, 238);
+  width: 100%;
 }
 
 .red-background-image {
@@ -43,20 +44,25 @@ main {
 /* factsSection */
 .factsSection {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* QuickFacts */
 .bg-img-qf {
+  width: 90%;
   margin: auto;
+  margin-bottom: 5rem;
   padding: 2rem;
   box-shadow: rgba(60, 1, 1, 0.4) 0px 0px 0px 3px, rgba(60, 1, 1, 0.3) 0px 0px 0px 6px, rgba(60, 1, 1, 0.2) 0px 0px 0px 9px, rgba(60, 1, 1, 0.1) 0px 0px 0px 12px, rgba(60, 1, 1, 0.05) 0px 0px 0px 15px;
 }
 
 /* CenterCAROUSEL */
 .hs-carousel {
-  width: 70%;
+  width: 90%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0 auto;
 }
 
 .hs-carousel img {
@@ -109,6 +115,12 @@ main {
 }
 
 .mott-header {
+  line-height: 5rem;
+  font-size: 45px;
+  /* width: 45rem; */
+  font-weight: 600;
+  /* position: absolute; */
+
   text-align: center;
   margin: 0 auto;
   background: 50% 100% / 50% 50% no-repeat
@@ -144,10 +156,10 @@ main {
 .cta {
   background: #333;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
-  height: 450px;
+  height: 300px;
   overflow: hidden;
   position: relative;
-  width: 400px;
+  width: 290px;
 }
      
 .cta:hover img {
@@ -167,12 +179,12 @@ main {
   right: 0;
   top: 0;
   transition: 0.5s ease-in-out;
-  width: 115%;
+  width: 100%;
 }
   
 .cta .text {
-  bottom: -30%;
-  padding: 15px;
+  bottom: -60%;
+  padding: 5px;
   position: absolute;
   transition: 0.5s ease-in-out;
 }

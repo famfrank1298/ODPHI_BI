@@ -17,11 +17,11 @@ export default function Footer() {
       </div>
 
       <div className="row">
-        © Copyright 2023 Omega Delta Phi Fraternity, Inc. | All Rights Reserved
+        Designed By: Frank Mensah (Sir Asante: 773-875-4389)
       </div>
 
       <div className="row">
-        Designed By: Frank Mensah (Sir Asante: 773-875-4389)
+        © Copyright 2023 Omega Delta Phi Fraternity, Inc. | All Rights Reserved
       </div>
     </footer>
   )

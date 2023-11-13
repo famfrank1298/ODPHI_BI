@@ -21,7 +21,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header/>
-      <div className={inter.className + " leading-[5rem] text-[60px] w-[55rem] font-semibold absolute mott-header"}>ONE CULTURE, ANY RACE</div>
 
       <div className={inter.className + " leading-[5rem] text-[50px] font-semibold section-header"}>Social</div>
       <p className={inter.className + " text-[25px] mb-[2rem] ml-[10rem] mr-[10rem] text-center"}>At ODPHI, social engagement fosters an environment where bonds of brotherhood are not only strengthened but also extended to various spheres of influence. 
