@@ -20,7 +20,7 @@ export default function XiCard(props) {
                       Status: {props.info[i]["status"].toUpperCase()}
                     </b></p>      
                   </div>
-        })};
+        })}
       </div>
     </div>
   )

@@ -28,6 +28,7 @@ main {
 }
 
 /* CAROUSEL */
+/* @media all and (max-width: 480px) {} */
 .image-carousel img {
   background-size:cover;
   transition: opacity 0.5s ease-in-out;
@@ -71,7 +72,7 @@ main {
 
 /* Gallery */
 .gallery {
-  width: 40%;
+  width: 35%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 

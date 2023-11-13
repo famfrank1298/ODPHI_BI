@@ -13,7 +13,7 @@ export default function Header() {
             <Link href="/gallery" className="ml-auto font-light text-white text-[17px]"><button> Gallery </button></Link>
             <Link href="/socials"><button className="ml-7 font-light text-white text-[17px]"> Social </button></Link>
             <Link href="/serviceEvents"><button className="ml-7 font-light text-white text-[17px]"> Services </button></Link>
-            <Link href="/members"><button className="cursor-pointer ml-7 mr-5 font-medium text-white hover:text-[#012898] text-[17px] border-[1px] hover:bg-white hover:rounded-[5px] px-3 py-[0.5rem] transition-all"> Members </button></Link>
+            <Link href="/members"><button className="cursor-pointer ml-7 mr-5 font-medium text-white hover:text-[#FF2400] text-[17px] border-[1px] hover:bg-white hover:rounded-[5px] px-3 py-[0.5rem] transition-all"> Members </button></Link>
             </nav>
         </header>
     )

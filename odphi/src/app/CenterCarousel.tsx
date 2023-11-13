@@ -7,10 +7,11 @@ const inter = Manrope({ subsets: ["latin"] });
 export default function CenterCarousel() {
     const images = [
         'homeScreen/hs-center1.jpg',
-        'homeScreen/hs-center2.jpg',
+        'homeScreen/hs-center2.JPG',
         'homeScreen/hs-center3.jpg',
         'homeScreen/hs-center4.jpg',
         'homeScreen/hs-center5.JPG',
+        'homeScreen/hs-center6.JPG',
     ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
