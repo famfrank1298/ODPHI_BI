@@ -34,7 +34,7 @@ export default function CenterCarousel() {
 
     return (
         <div className={`hs-carousel ${fade ? 'fade' : ''}`}>
-            <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }

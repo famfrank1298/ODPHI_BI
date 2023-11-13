@@ -27,7 +27,7 @@ export default function Gallery(props: { images: string[]; }) {
 
     return (
         <div className={`gallery ${fade ? 'fade' : ''}`}>
-            <Image src={props.images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <img src={props.images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }

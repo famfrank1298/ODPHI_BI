@@ -11,7 +11,7 @@ export default function CharterCard(props) {
     <div className={inter.className + " text-[25px] w-[45rem] line-titles text-center"}>{props.info[0]["line-name"]}</div>
     <div class="single-line">
     <div class="box">
-        <Image class="box-image mb-[1rem]" src={props.info[0]["pic-link"]}  alt="Charter Line Brother"/>
+        <img class="box-image mb-[1rem]" src={props.info[0]["pic-link"]}  alt="Charter Line Brother"/>
         <h3 class="text-center">{props.info[0]["name"]} <br/> <i>{props.info[0]["sir-name"]}</i> #{props.info[0]["number"]}</h3>
         <p className={inter.className + " text-[25px] text-center mb-[1rem] mt-[1rem]"}>
             {props.info[0]["name"]} <i>{props.info[0]["sir-name"]}</i> <b>|</b> {"     "}

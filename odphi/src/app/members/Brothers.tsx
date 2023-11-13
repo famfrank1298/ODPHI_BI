@@ -38,7 +38,7 @@ export default function Brothers() {
         <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
         
         <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>Next Line Incoming!</div>
-        <Image src="/members/incoming.JPG" className="incoming pulse" alt="New Line Incoming"/>
+        <img src="/members/incoming.JPG" className="incoming pulse" alt="New Line Incoming"/>
 
     </div>
     )

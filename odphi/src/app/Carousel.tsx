@@ -30,7 +30,7 @@ export default function Carousel() {
 
     return (
         <div className={`image-carousel ${fade ? 'fade' : ''}`}>
-            <Image src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
         </div>
     );
 }

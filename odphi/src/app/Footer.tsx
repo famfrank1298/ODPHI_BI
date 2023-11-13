@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <Image src="/odp_logo.png" alt="ODPHI LOGO"/>
+      <img src="/odp_logo.png" alt="ODPHI LOGO"/>
     
       <div className="row">
         <ul>
