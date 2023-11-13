@@ -11,15 +11,15 @@ export default function XiCard(props) {
       
       <div class="single-line">
         {props.info.map(function (bro, i) {
-          return <div class="box">
-                    <img class="box-image mb-[1rem]" src={props.info[i]["pic-link"]}  alt="Mu Line Brother"/>
-                    <h3 class="text-center">{props.info[i]["name"]} <br/> <i>{props.info[i]["sir-name"]}</i> #{props.info[i]["number"]}</h3>
-                    <p class="description text-center"><b>
-                      Major: {props.info[i]["major"]}<br/>
-                      {props.info[i]["status"] === "active" ? <p>Position: {props.info[i]["position"]}</p> : null} 
-                      Status: {props.info[i]["status"].toUpperCase()}
-                    </b></p>      
-                  </div>
+          return <div class="box" key={i}>
+            <img class="box-image mb-[1rem]" src={props.info[i]["pic-link"]}  alt="Mu Line Brother"/>
+            <h3 class="text-center">{props.info[i]["name"]} <br/> <i>{props.info[i]["sir-name"]}</i> #{props.info[i]["number"]}</h3>
+            <p class="description text-center"><b>
+              Major: {props.info[i]["major"]}<br/>
+              {props.info[i]["status"] === "active" ? <p>Position: {props.info[i]["position"]}</p> : null} 
+              Status: {props.info[i]["status"].toUpperCase()}
+            </b></p>      
+          </div>
         })}
       </div>
     </div>

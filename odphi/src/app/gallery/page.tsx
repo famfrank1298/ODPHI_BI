@@ -71,7 +71,7 @@ export default function Home() {
         <p className={inter.className + " text-[25px] mb-[2rem] ml-[5rem] mr-[5rem] text-center"}>Here we offer a candid and heartwarming glimpse into the true essence of ODPHI, capturing the unscripted moments where we embrace our goofy, unified, and authentic selves, celebrating the genuine bonds that make our fraternity special!</p>
         <Gallery images={goofy}/>
 
-        <p className={inter.className + " text-[25px] mb-[2rem] mt-[5rem] ml-[5rem] mr-[5rem] text-center"}><i>&quot;And that's on Joe Cereceres&quot;</i> - Jose Mendez</p>
+        <p className={inter.className + " text-[25px] mb-[2rem] mt-[5rem] ml-[5rem] mr-[5rem] text-center"}><i>&quot;And that&aposs on Joe Cereceres&quot;</i> - Jose Mendez</p>
         <Footer/>
     </main>
   ) 

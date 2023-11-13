@@ -11,7 +11,7 @@ export default function NuCard(props) {
       
       <div class="wrap grid-3">
         {props.info.map(function (bro, i) {
-          return <div class="box">
+          return <div class="box" key={i}>
                     <img class="box-image mb-[1rem]" src={props.info[i]["pic-link"]}  alt="Nu Line Brother"/>
                     <h3 class="text-center">{props.info[i]["name"]} <br/> <i>{props.info[i]["sir-name"]}</i> #{props.info[i]["number"]}</h3>
                     <p class="description text-center"><b>

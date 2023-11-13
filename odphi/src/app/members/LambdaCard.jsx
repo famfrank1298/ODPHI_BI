@@ -10,15 +10,17 @@ export default function XiCard(props) {
       <div className={inter.className + " text-[25px] w-[45rem] line-titles text-center"}>{props.info[0]["line-name"]}</div>
       
       <div class="single-line">
-        <div class="box">
-          <img class="box-image mb-[1rem]" src={props.info[0]["pic-link"]}  alt="Mu Line Brother"/>
-          <h3 class="text-center">{props.info[0]["name"]} <br/> <i>{props.info[0]["sir-name"]}</i> #{props.info[0]["number"]}</h3>
-          <p class="description text-center"><b>
-            Major: {props.info[0]["major"]}<br/>
-            {props.info["status"] === "active" ? <p>Position: {props.info[0]["position"]}</p> : null} 
-            Status: {props.info[0]["status"].toUpperCase()}
-          </b></p>      
-        </div>
+        {props.info.map(function (bro, i) {
+          return <div class="box" key={i}>
+            <img class="box-image mb-[1rem]" src={props.info[i]["pic-link"]}  alt="Mu Line Brother"/>
+            <h3 class="text-center">{props.info[i]["name"]} <br/> <i>{props.info[i]["sir-name"]}</i> #{props.info[i]["number"]}</h3>
+            <p class="description text-center"><b>
+              Major: {props.info[i]["major"]}<br/>
+              {props.info[i]["status"] === "active" ? <p>Position: {props.info[i]["position"]}</p> : null} 
+              Status: {props.info[i]["status"].toUpperCase()}
+            </b></p>      
+          </div>
+        })}
       </div>
     </div>
   )
