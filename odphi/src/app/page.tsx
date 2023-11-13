@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header/>
-      <div className={inter.className + " leading-[5rem] text-[60px] w-[55rem] font-semibold absolute mott-header"}>ONE CULTURE, ANY RACE</div>
+      <div className={inter.className + " leading-[5rem] text-[60px] w-[45rem] font-semibold absolute mott-header"}>ONE CULTURE, ANY RACE</div>
       <Carousel/>
 
       <div className={inter.className + "leading-[5rem] text-[60px] font-semibold section-header mt-[10rem] text-center"}>Welcome to Omega Delta Phi Fraternity at UIC!</div>
