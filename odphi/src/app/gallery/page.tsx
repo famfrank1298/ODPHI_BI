@@ -22,6 +22,7 @@ export default function Home() {
     "defaultGallery/img12.jpg",
     "defaultGallery/img13.JPG",
     "defaultGallery/img14.jpg",
+    "defaultGallery/img15.JPG",
     "defaultGallery/img16.jpg",
     "defaultGallery/img17.jpg",
     "defaultGallery/img18.JPG",
