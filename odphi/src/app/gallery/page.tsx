@@ -15,7 +15,7 @@ export default function Home() {
     "defaultGallery/img5.JPG",
     "defaultGallery/img6.JPG",
     "defaultGallery/img7.JPG",
-    "defaultGallery/img8.jpg",
+    "defaultGallery/img8.JPG",
     "defaultGallery/img9.JPG",
     "defaultGallery/img10.JPG",
     "defaultGallery/img11.JPG",
@@ -25,11 +25,10 @@ export default function Home() {
     "defaultGallery/img16.jpg",
     "defaultGallery/img17.jpg",
     "defaultGallery/img18.JPG",
-    "defaultGallery/img19.jpg",
+    "defaultGallery/img19.JPG",
     "defaultGallery/img20.jpg",
     "defaultGallery/img21.jpg",
     "defaultGallery/img22.jpg",
-    "defaultGallery/img23.JPG",
   ]
 
   const goofy: string[] = [
