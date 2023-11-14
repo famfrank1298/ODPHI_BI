@@ -44,6 +44,7 @@ export default function Home() {
     "goofyGallery/img9.JPG",
     "goofyGallery/img10.JPG",
     "goofyGallery/img11.JPG",
+    "goofyGallery/img12.JPG",
     "goofyGallery/img13.JPG",
     "goofyGallery/img14.jpg",
     "goofyGallery/img15.JPG",
@@ -53,7 +54,6 @@ export default function Home() {
     "goofyGallery/img19.JPG",
     "goofyGallery/img20.JPG",
     "goofyGallery/img21.JPG",
-    "goofyGallery/img22.JPG",
   ]
 
   return (
