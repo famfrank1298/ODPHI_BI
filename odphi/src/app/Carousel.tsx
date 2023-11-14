@@ -7,7 +7,7 @@ const inter = Manrope({ subsets: ["latin"] });
 export default function Carousel() {
     const images = useMemo (() => [
         '/carousel/img1.png',
-        '/carousel/img2.png',
+        '/carousel/img2.JPG',
         '/carousel/img3.png',
     ], []);
 
@@ -30,7 +30,7 @@ export default function Carousel() {
 
     return (
         <div className={`image-carousel ${fade ? 'fade' : ''}`}>
-            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
         </div>
     );
 }

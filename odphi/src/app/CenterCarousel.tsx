@@ -7,7 +7,7 @@ const inter = Manrope({ subsets: ["latin"] });
 
 export default function CenterCarousel() {
     const images = useMemo (() => [
-        'homeScreen/hs-center1.jpg',
+        'homeScreen/hs-center1.JPG',
         'homeScreen/hs-center2.JPG',
         'homeScreen/hs-center3.jpg',
         'homeScreen/hs-center4.jpg',
@@ -34,7 +34,7 @@ export default function CenterCarousel() {
 
     return (
         <div className={`hs-carousel ${fade ? 'fade' : ''}`}>
-            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
         </div>
     );
 }
