@@ -10,7 +10,7 @@ export default function Header() {
         <header className="red-background-image w-full h-[5rem]">
             <div className={ jakarta.className + ` px-6 flex h-[5rem] items-center` } >
                 <Link href="/"><img src="/odp_0.png" alt="ODPHI Logo" className="w-[3rem] ml-5" /></Link>
-                <div className={"mott-header"}>ONE CULTURE, ANY RACE</div>
+                <div className={"mott-header"}>OMEGA DELTA PHI</div>
                 <Link href="/gallery" className="ml-auto font-light text-white text-[17px]"><button> Gallery </button></Link>
                 <Link href="/socials"><button className="ml-7 font-light text-white text-[17px]"> Social </button></Link>
                 <Link href="/serviceEvents"><button className="ml-7 font-light text-white text-[17px]"> Services </button></Link>
