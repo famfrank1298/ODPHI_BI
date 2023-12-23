@@ -7,8 +7,8 @@ const inter = Manrope({ subsets: ["latin"] });
 export default function FoundingCard(props) {
   return (
     <div>
-       <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>Beta Iota {props.info[0]["greek-line"]}</div>
-       <div className={inter.className + " text-[25px] w-[45rem] line-titles text-center"}>{props.info[0]["line-name"]}</div>
+       <div className={inter.className + " leading-[5rem] section-title line-titles"}>Beta Iota {props.info[0]["greek-line"]}</div>
+       <div className={inter.className + " line-titles section-name"}>{props.info[0]["line-name"]}</div>
       <div class="single-line">
         <div class="box">
             <img class="box-image mb-[1rem]" src={props.info[0]["pic-link"]}  alt="Mu Line Brother"/>

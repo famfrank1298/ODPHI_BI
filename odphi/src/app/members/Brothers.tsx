@@ -25,19 +25,19 @@ export default function Brothers() {
     return (
     <div>
         <FoundingCard info={founding} />
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         <CharterCard info={charter} />
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         <LambdaCard info={lambda}/>
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         <MuCard info={mu}/>
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         <NuCard info={nu}/>
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         <XiCard info={xi}/>
-        <p className="text-center">_____________________________________________________________________________________________________________________________________________________</p>
+        <hr className="h-2rem w-full border-t-2 border-black font-bold mt-[1rem]"/>
         
-        <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>Next Line Incoming!</div>
+        <div className={inter.className + " leading-[5rem] section-title line-titles"}>Next Line Incoming!</div>
         <img src="/members/incoming.JPG" className="incoming pulse" alt="New Line Incoming"/>
 
     </div>

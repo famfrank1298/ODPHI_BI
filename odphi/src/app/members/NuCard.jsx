@@ -7,8 +7,8 @@ const inter = Manrope({ subsets: ["latin"] });
 export default function NuCard(props) {
   return (
     <div>
-      <div className={inter.className + " leading-[5rem] text-[40px] w-[55rem] font-semibold line-titles ml-[1rem]"}>{props.info[0]["greek-line"]} Line</div>
-      <div className={inter.className + " text-[25px] w-[45rem] line-titles text-center"}>{props.info[0]["line-name"]}</div>
+      <div className={inter.className + " leading-[5rem] section-title line-titles"}>{props.info[0]["greek-line"]} Line</div>
+      <div className={inter.className + " line-titles section-name"}>{props.info[0]["line-name"]}</div>
       
       <div class="wrap grid-3">
         {props.info.map(function (bro, i) {

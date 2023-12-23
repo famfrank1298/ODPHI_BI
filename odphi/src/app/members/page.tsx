@@ -8,7 +8,8 @@ import "./members.css"
 
 export default function Members() {
     return (
-    <main className="flex min-h-screen flex-col items-center">
+    // <main className="flex min-h-screen flex-col items-center">
+    <main className="min-h-screen">
         <Header/>
         <Brothers/>
         <Footer/>
