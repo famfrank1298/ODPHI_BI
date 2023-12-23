@@ -7,8 +7,8 @@ export default function QuickFacts() {
 
   return (
     <div className='bg-img-qf'>
-      <div className={inter.className + "leading-[5rem] text-[50px] font-semibold section-header mt-[10rem] text-center"}>Quick Facts</div>
-      <div className="text-center mt-[1rem] text-[20px]">
+      <div className={inter.className + "leading-[5rem] quick-title section-header"}>Quick Facts</div>
+      <div className="quick-text">
         <b>National Flower:</b> Silver Rose<br/>
         <b>National Mascot:</b> Silver Knight<br/>
         <b>Philanthropy:</b> Wounded Warriors<br/>

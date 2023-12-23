@@ -28,6 +28,18 @@ main {
   background-size: cover;
 }
 
+.odp_logo {
+  width: 3rem;
+  margin-left: 5px;
+}
+
+.nav-menu {
+  font-weight: 300;
+  color:white;
+  font-size: 17px;
+  margin-left: 1rem;
+}
+
 /* CAROUSEL */
 /* @media all and (max-width: 480px) {} */
 .image-carousel img {
@@ -41,17 +53,29 @@ main {
   animation: fadeIn 0.2s ease-in-out forwards;
 }
 
+.header-title {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center
+}
+
+.header-body {
+  font-size: 20px;
+  margin: 2rem 8rem;
+  text-align: center;
+}
+
 /* factsSection */
 .factsSection {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0 auto;
-  width: 50%;
+  margin: 5rem auto;
+  width: 60%;
 }
 
 /* QuickFacts */
 .bg-img-qf {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 5rem;
   padding: 2rem;
@@ -146,11 +170,18 @@ main {
   z-index: -1;
 }
 
-.container {
-  align-items: center;
-  display: flex;
-  height: auto;
+.pillar-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
   justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  margin: 1rem;
 }
 
 .cta {
@@ -169,6 +200,7 @@ main {
 
 .cta:hover .text{
   bottom: 0;
+  color:rgb(60, 1, 1);
 }
   
 .cta .pillar-img {
@@ -202,6 +234,18 @@ main {
   font-weight: 300;
 }
 
+.quick-title {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.quick-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
 .partner-section {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -214,4 +258,169 @@ main {
 .partner-section img {
   width: 150px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1060px) {
+  .header-title {
+    font-size: 40px;
+  }
+
+  .header-body {
+    font-size: 15px;
+    margin: 1rem 6rem;
+  }
+
+  .mott-header {
+    font-size: 35px;
+  }
+
+  .quick-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-menu {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 780px) {
+  .odp_logo {
+    width: 2rem;
+    margin-left: 3px;
+  }
+
+  .mott-header {
+    font-size: 25px;
+  }
+
+  .header-title {
+    font-size: 30px;
+  }
+
+  .header-body {
+    margin: 0.5rem 2rem;
+  }
+
+  .quick-title {
+    font-size: 30px;
+  }
+
+  .quick-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 660px) {
+  .factsSection {
+    margin: 3rem auto;
+    width: 80%;
+  }
+
+  .nav-menu {
+    font-size: 10px;
+  }
+
+  .container {
+    width: 60%;
+    margin: 0.5rem;
+  }
+
+  .cta {
+    height: 250px;
+    width: 250px;
+  }
+
+  .cta .text {
+    bottom: -80%;
+  }
+
+  .mott-header {
+    line-height: 3rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 570px) {
+  .header-title {
+    font-size: 25px;
+  }
+
+  .header-body {
+    font-size: 10px;
+    margin: 1rem 4rem;
+  }
+
+  .quick-title {
+    font-size: 30px;
+  }
+
+  .quick-text {
+    font-size: 15px;
+  }
+
+  .mott-header {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .odp_logo {
+    width: 1.5rem;
+  }
+
+  .cta {
+    height: 250px;
+    width: 240px;
+  }
+
+  .cta .text {
+    bottom: -80%;
+  }
+}
+
+@media (max-width: 510px) {
+  .mott-header {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .nav-menu {
+    font-size: 10px;
+  }
+
+  .odp_logo {
+    width: 1rem;
+  }
+
+  .pillar-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cta {
+    height: 270px;
+    width: 250px;
+  }
+
+  .cta .text {
+    bottom: -75%;
+  }
+
+  .header-title {
+    font-size: 30px;
+  }
+
+  .header-body {
+    font-size: 15px;
+    margin: 1rem 2rem;
+  }
+
+  .quick-text {
+    font-size: 10px;
+  }
+
+  .quick-title {
+    font-size: 25px;
+  }
 }

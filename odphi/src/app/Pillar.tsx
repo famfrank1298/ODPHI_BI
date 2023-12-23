@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Pillar() {
     return (
-        <div className="flex w-full mb-[5rem]">
-            <div className="container flex w-full mt-[3rem]">
+        <div className="pillar-container">
+            <div className="container">
                 <div className="cta">
                 <img className="pillar-img" src="/pillars/unity.JPG" alt="UNITY"/>
                 <div className="text">
@@ -12,7 +12,7 @@ export default function Pillar() {
                 </div>
                 </div>
             </div>
-            <div className="container flex w-full mt-[3rem]">
+            <div className="container">
                 <div className="cta">
                 <img className="pillar-img" src="/pillars/honesty.JPG" alt="HONESTY"/>
                 <div className="text">
@@ -21,7 +21,7 @@ export default function Pillar() {
                 </div>
                 </div>
             </div>
-            <div className="container flex w-full mt-[3rem]">
+            <div className="container">
                 <div className="cta">
                     <img className="pillar-img" src="/pillars/integrity.JPG" alt="INTEGRITY"/>
                     <div className="text">
@@ -30,7 +30,7 @@ export default function Pillar() {
                     </div>
                 </div>
             </div>
-            <div className="container flex w-full mt-[3rem]">
+            <div className="container">
                 <div className="cta">
                 <img className="pillar-img" src="/pillars/leadership.JPG" alt="LEADERSHIP"/>
                 <div className="text">
