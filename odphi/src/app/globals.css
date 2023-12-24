@@ -254,6 +254,12 @@ main {
   text-align: center;
 }
 
+.gallery-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
 /* Social */
 .ss-body {
   font-size: 20px;
@@ -271,6 +277,14 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   transition: opacity 0.5s ease-in-out;
+}
+
+.gallery-body {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -299,6 +313,13 @@ main {
   
   .partner-section img {
     width: 150px;
+  }
+
+  .gallery-body {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
 
@@ -346,6 +367,13 @@ main {
   .quick-text {
     font-size: 15px;
   }
+
+  .gallery-body {
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
 
 @media (max-width: 660px) {
@@ -389,6 +417,11 @@ main {
   .partner-section {
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
+  }
+
+  .gallery-title {
+    font-size: 40px;
+    font-weight: 500;
   }
 }
 
@@ -494,6 +527,18 @@ main {
   .partner-body {
     margin: 0.5rem 2rem;
     font-size: 10px;
+  }
+
+  .gallery-title {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .gallery-body {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
