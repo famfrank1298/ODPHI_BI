@@ -362,6 +362,7 @@ main {
 
   .quick-title {
     font-size: 30px;
+    margin-top: 1rem;
   }
 
   .quick-text {
@@ -539,6 +540,10 @@ main {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .partner-section img {
+    width: 100px;
   }
 }
 

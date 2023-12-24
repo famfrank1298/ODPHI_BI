@@ -64,8 +64,6 @@ export default function Home() {
         <p className={inter.className + " gallery-body"}>Here are a couple of memorable photos from photoshoots, attending events, group pictures, and having a good time overall!</p>
         <Gallery images={memories}/>
 
-        <div className="mb-[5rem]"></div>
-
         <div className={inter.className + " leading-[5rem] gallery-title section-header"}>Picture-Perfect Realness</div>
         <p className={inter.className + " gallery-body"}>Here we offer a candid and heartwarming glimpse into the true essence of ODPHI, capturing the unscripted moments where we embrace our goofy, unified, and authentic selves, celebrating the genuine bonds that make our fraternity special!</p>
         <Gallery images={goofy}/>
