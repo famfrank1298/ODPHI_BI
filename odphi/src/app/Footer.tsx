@@ -9,19 +9,15 @@ export default function Footer() {
       <img src="/odp_logo.png" alt="ODPHI LOGO"/>
     
       <div className="row">
-        <ul>
-          <li><a href="#">National Website: www.omegadeltaphi.com</a></li>
-          <li><a href="#">UIC Instagram: instagram.com/chicagoknights87/</a></li>
-          <li><a href="#">National Instagram: www.instagram.com/odphinationals/</a></li>
-          <li><a href="#">Contact Johnny Reyes (773-971-1170) to Learn More</a></li>
-        </ul>
+          <a href="#"><b>National Website</b>: www.omegadeltaphi.com</a>
+          <a href="#"><b>UIC Instagram</b>: instagram.com/chicagoknights87/</a>
+          <a href="#"><b>National Instagram</b>: www.instagram.com/odphinationals/</a>
+          <a href="#">Contact <b>Johnny Reyes</b> (773-971-1170) to Learn More</a>
+          <div>Designed By: <b>Frank Mensah</b> (Sir Asante: 773-875-4389)</div>
       </div>
 
-      <div className="row">
-        Designed By: Frank Mensah (Sir Asante: 773-875-4389)
-      </div>
 
-      <div className="row">
+      <div className="text-center w-full copyright">
         © Copyright 2023 Omega Delta Phi Fraternity, Inc. | All Rights Reserved
       </div>
     </footer>
