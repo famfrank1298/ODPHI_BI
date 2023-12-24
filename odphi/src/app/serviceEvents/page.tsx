@@ -28,16 +28,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Header/>
-      {/* <div className={inter.className + "mott-header"}>ONE CULTURE, ANY RACE</div> */}
 
       <div className={inter.className + " leading-[5rem] text-[50px] font-semibold section-header"}>Services</div>
-      <p className={inter.className + " text-[20px] mb-[2rem] ml-[10rem] mr-[10rem] text-center"}>Community service and volunteer engagement are central to Omega Delta Phi&apos;s values, reflecting our commitment to Unity, Honesty, Integrity, and Leadership. Through these activities, we not only demonstrate our dedication to unity across diverse backgrounds and uphold our integrity through sincere efforts to create positive change, but we also actively expand our network, interact, and engage with other fraternities and soroities, and build strong rapport with service organizations.
+      <p className={inter.className + " ss-body"}>Community service and volunteer engagement are central to Omega Delta Phi&apos;s values, reflecting our commitment to Unity, Honesty, Integrity, and Leadership. Through these activities, we not only demonstrate our dedication to unity across diverse backgrounds and uphold our integrity through sincere efforts to create positive change, but we also actively expand our network, interact, and engage with other fraternities and soroities, and build strong rapport with service organizations.
       <br/><br/> These experiences not only embody our commitment to building leaders who excel academically and professionally while making a lasting impact on the world, but they also unite us in brotherhood and leave a legacy of compassion and goodwill, enhancing our connections and collaborations with like-minded entities dedicated to making a difference in our communities. 
       <br/><br/>Our goal each semester is for each brother to complete 30 hours of service, but we always aim for more!</p>
       <Gallery images={services}/>
 
-      <div className={inter.className + " leading-[5rem] text-[30px] font-semibold section-header"}>Partners</div>
-      <p className={inter.className + " text-[15px] mb-[2rem] ml-[10rem] mr-[10rem] text-center"}>We proudly highlight some of the esteemed organizations we&apos;ve collaborated with, participating in their inspiring events with great enthusiasm. We look forward to nurturing these connections and forging new partnerships in the future to further our shared goals.</p>
+      <div className={inter.className + " leading-[5rem] mt-[1rem] text-[30px] font-semibold section-header"}>Partners</div>
+      <p className={inter.className + " partner-body"}>We proudly highlight some of the esteemed organizations we&apos;ve collaborated with, participating in their inspiring events with great enthusiasm. We look forward to nurturing these connections and forging new partnerships in the future to further our shared goals.</p>
       <div className="partner-section">
         <img src="serviceLogos/cardsforkidz_logo.jpg" alt="Cards for Kidz"/>
         <img src="serviceLogos/12thward_logo.png" alt="12thWard"/>

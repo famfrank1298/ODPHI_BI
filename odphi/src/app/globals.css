@@ -100,18 +100,6 @@ main {
   animation: fadeIn 0.2s ease-in-out forwards;
 }
 
-/* Gallery */
-.gallery {
-  width: 35%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-.gallery img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: opacity 0.5s ease-in-out;
-}
-
 .section-header {
   text-align: center;
   margin: 0 auto;
@@ -260,6 +248,31 @@ main {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.partner-body {
+  font-size: 15px;
+  margin: 1rem 8rem;
+  text-align: center;
+}
+
+/* Social */
+.ss-body {
+  font-size: 20px;
+  margin: 2rem 8rem;
+  text-align: center;
+}
+
+/* Gallery */
+.gallery {
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.gallery img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1060px) {
   .header-title {
@@ -278,11 +291,33 @@ main {
   .quick-text {
     font-size: 15px;
   }
+
+  .partner-section {
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+  }
+  
+  .partner-section img {
+    width: 150px;
+  }
 }
 
 @media (max-width: 900px) {
   .nav-menu {
     font-size: 14px;
+  }
+
+  .ss-body {
+    font-size: 18px;
+    margin: 2rem 6rem;
+  }
+
+  .gallery {
+    width: 60%;
+  }
+
+  .partner-body {
+    margin: 2rem 6rem;
   }
 }
 
@@ -341,6 +376,20 @@ main {
     line-height: 3rem;
     font-weight: 500;
   }
+
+  .ss-body {
+    font-size: 15px;
+    margin: 1.5rem 4rem;
+  }
+
+  .gallery {
+    width: 60%;
+  }
+
+  .partner-section {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+  }
 }
 
 @media (max-width: 570px) {
@@ -377,6 +426,24 @@ main {
 
   .cta .text {
     bottom: -80%;
+  }
+
+  .ss-body {
+    font-size: 12px;
+    margin: 1rem 3rem;
+  }
+
+  .gallery {
+    width: 70%;
+  }
+  
+  .partner-section img {
+    width: 125px;
+  }
+
+  .partner-body {
+    margin: 0.5rem 4rem;
+    font-size: 12px;
   }
 }
 
@@ -423,6 +490,11 @@ main {
   .quick-title {
     font-size: 25px;
   }
+
+  .partner-body {
+    margin: 0.5rem 2rem;
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 436px) {
@@ -434,5 +506,14 @@ main {
 
   .odp_logo {
     margin-left: 2px;
+  }
+
+  .ss-body {
+    font-size: 12px;
+    margin: 1rem 2rem;
+  }
+
+  .gallery {
+    width: 80%;
   }
 }
