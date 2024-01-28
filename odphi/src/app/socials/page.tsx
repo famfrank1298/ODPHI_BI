@@ -23,6 +23,7 @@ export default function Home() {
     "socialGallery/social13.jpg",
     "socialGallery/social14.JPG",
     "socialGallery/social15.JPG",
+    "socialGallery/social16.JPG",
   ]
 
   return (

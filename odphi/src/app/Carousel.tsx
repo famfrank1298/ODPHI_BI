@@ -6,9 +6,9 @@ const inter = Manrope({ subsets: ["latin"] });
 
 export default function Carousel() {
     const images = useMemo (() => [
-        '/carousel/img1.png',
+        '/carousel/img1.JPG',
         '/carousel/img2.JPG',
-        '/carousel/img3.png',
+        '/carousel/img3.JPG',
     ], []);
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

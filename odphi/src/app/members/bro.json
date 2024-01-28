@@ -97,8 +97,8 @@
         "sir-name": "Sir Valiente",
         "pic-link": "/members/joseM.JPG",
         "cross-date": "[Insert Date]",
-        "status": "active",
-        "position": "Service",
+        "status": "inactive",
+        "position": "N/A",
         "major": "Mechanical Engieering"
     },
     {
@@ -109,8 +109,8 @@
         "sir-name": "Sir Xochipilli",
         "pic-link": "/members/KyleR.jpg",
         "cross-date": "May 4th, 2022",
-        "status": "inactive",
-        "position": "Alumni",
+        "status": "active",
+        "position": "Alumni Chair",
         "major": "Applied Psycology"
     },
     {
@@ -146,7 +146,7 @@
         "pic-link": "/members/fransiscoH.JPG",
         "cross-date": "May 4th, 2022",
         "status": "active",
-        "position": "Sargeant of Arms",
+        "position": "Alumni Chair",
         "major": "Criminal Justice and Law"
     },
     {
@@ -206,7 +206,80 @@
         "pic-link": "/members/jonathanR.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
-        "position": "Academics",
+        "position": "Stroll",
         "major": "Kinesiology"
+    },
+    {
+        "name": "Kelan Scott",
+        "line-name": "G.R.A.N.D",
+        "number": 55,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Raphael",
+        "pic-link": "/members/kelanS1.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "active",
+        "position": "Brotherhood",
+        "major": "Psychology and English"
+    },
+    {
+        "name": "Carlos Villalobos",
+        "line-name": "G.R.A.N.D",
+        "number": 56,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Yacatecuhtli",
+        "pic-link": "/members/carlosV1.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "active",
+        "position": "Fundraising",
+        "major": "Finance"
+    },
+    {
+        "name": "Daniel Martinez",
+        "line-name": "G.R.A.N.D",
+        "number": 57,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Arsenio",
+        "pic-link": "/members/danielM1.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "active",
+        "position": "Social",
+        "major": "Business"
+    },
+    {
+        "name": "Oscar Canchola",
+        "line-name": "G.R.A.N.D",
+        "number": 58,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Dromefs",
+        "pic-link": "/members/oscarC.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "active",
+        "position": "Service",
+        "major": "Computer Engineering"
+    },
+    {
+        "name": "Jiovani Olvera",
+        "line-name": "G.R.A.N.D",
+        "number": 59,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Drako",
+        "pic-link": "/members/jiovaniO.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "active",
+        "position": "Recruitment",
+        "major": "Mechanical Engieering"
+    },
+    {
+        "name": "Omar Alcantar",
+        "line-name": "G.R.A.N.D",
+        "number": 60,
+        "greek-line": "OMICRON",
+        "sir-name": "Sir Santo",
+        "pic-link": "/members/omarA.JPG",
+        "cross-date": "[Insert Crossing Date]",
+        "status": "inactive",
+        "position": "N/A",
+        "major": "Business"
     }
+    
 ]
