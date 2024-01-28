@@ -7,8 +7,8 @@ const inter = Manrope({ subsets: ["latin"] });
 
 export default function CenterCarousel() {
     const images = useMemo (() => [
-        'homeScreen/hs-center1.JPG',
-        'homeScreen/hs-center2.JPG',
+        // 'homeScreen/hs-center1.JPG',
+        // 'homeScreen/hs-center2.JPG',
         'homeScreen/hs-center3.jpg',
         'homeScreen/hs-center4.jpg',
         'homeScreen/hs-center5.JPG',
