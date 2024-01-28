@@ -33,6 +33,8 @@ export default function Home() {
     "defaultGallery/img23.JPG",
     "defaultGallery/img24.JPG",
     "defaultGallery/img25.JPG",
+    "defaultGallery/img26.JPG",
+    "defaultGallery/img27.JPG",
   ]
 
   const goofy: string[] = [
