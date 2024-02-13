@@ -69,11 +69,11 @@ export default function Home() {
         <Header/>
        
         <div className={inter.className + " leading-[5rem] gallery-title section-header"}>ODPHI Memories</div>
-        <p className={inter.className + " gallery-body"}>Take a stroll through our collection of cherished moments captured during photoshoots, events, group gatherings, ceremonies, and simply enjoying life's pleasures. These snapshots offer a glimpse into the genuine joy and camaraderie shared among us. Join us in reminiscing about these heartwarming memories!</p>
+        <p className={inter.className + " gallery-body"}>Take a stroll through our collection of cherished moments captured during photoshoots, events, group gatherings, ceremonies, and simply enjoying life&apos;s pleasures. These snapshots offer a glimpse into the genuine joy and camaraderie shared among us. Join us in reminiscing about these heartwarming memories!</p>
         <Gallery images={memories}/>
 
         <div className={inter.className + " leading-[5rem] gallery-title section-header"}>Picture-Perfect Realness</div>
-        <p className={inter.className + " gallery-body"}>Explore a heartfelt portrayal of ODPHI's essence, showcasing candid moments that reflect our shared spirit of camaraderie and authenticity. These genuine snapshots capture our playful, unified selves, celebrating the unique bonds that define our fraternity's identity. Join us in savoring these unscripted glimpses into what makes our brotherhood truly special.</p>
+        <p className={inter.className + " gallery-body"}>Explore a heartfelt portrayal of ODPHI&apos;s essence, showcasing candid moments that reflect our shared spirit of camaraderie and authenticity. These genuine snapshots capture our playful, unified selves, celebrating the unique bonds that define our fraternity&apos;s identity. Join us in savoring these unscripted glimpses into what makes our brotherhood truly special.</p>
         <Gallery images={goofy}/>
 
         <p className={inter.className + " text-[20px] mb-[2rem] mt-[5rem] ml-[5rem] mr-[5rem] text-center"}><i>&quot;And that&apos;s on Joe Cereceres&quot;</i> - Jose Mendez</p>
