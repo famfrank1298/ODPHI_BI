@@ -7,7 +7,7 @@
         "sir-name": "Sir Royal",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Giberto Moran",
@@ -17,7 +17,7 @@
         "sir-name": "Sir Tiburón",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Ricardo Medina",
@@ -27,7 +27,7 @@
         "sir-name": "Sir Kaunu",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "David Medina",
@@ -37,7 +37,7 @@
         "sir-name": "Sir Illicit",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Raul Vargas",
@@ -47,7 +47,7 @@
         "sir-name": "Sir Kanis",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Christopher Caro",
@@ -57,7 +57,7 @@
         "sir-name": "Sir Flako",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Angel Sida",
@@ -67,7 +67,7 @@
         "sir-name": "Sir Blueprint",
         "pic-link": "/members/infamous.webp",
         "cross-date": "April 14th, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Luis Rodriguez",
@@ -77,7 +77,7 @@
         "sir-name": "Sir Uneak",
         "pic-link": "/members/charter.webp",
         "cross-date": "December 1st, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "David Caburnay",
@@ -87,7 +87,7 @@
         "sir-name": "Sir Grizzly",
         "pic-link": "/members/charter.webp",
         "cross-date": "December 1st, 2011",
-        "status": "inactive"
+        "status": "graduated"
     },
     {
         "name": "Jose Mendez",
@@ -169,7 +169,7 @@
         "sir-name": "Sir Temachti",
         "pic-link": "/members/hugo.JPG",
         "cross-date": "[Insert Crossing Date]",
-        "status": "inactive",
+        "status": "graduated",
         "position": "Regional Director of Academics",
         "major": "LALS"
     },
@@ -215,7 +215,7 @@
         "number": 55,
         "greek-line": "OMICRON",
         "sir-name": "Sir Raphael",
-        "pic-link": "/members/kelanS1.JPG",
+        "pic-link": "/members/kelanS.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
         "position": "Brotherhood",
@@ -239,7 +239,7 @@
         "number": 57,
         "greek-line": "OMICRON",
         "sir-name": "Sir Arsenio",
-        "pic-link": "/members/danielM1.JPG",
+        "pic-link": "/members/danielM.JPG",
         "cross-date": "[Insert Crossing Date]",
         "status": "active",
         "position": "Social",

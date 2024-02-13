@@ -35,6 +35,8 @@ export default function Home() {
     "defaultGallery/img25.JPG",
     "defaultGallery/img26.JPG",
     "defaultGallery/img27.JPG",
+    "defaultGallery/img28.jpg",
+    "defaultGallery/img29.JPG",
   ]
 
   const goofy: string[] = [
@@ -59,6 +61,7 @@ export default function Home() {
     "goofyGallery/img19.JPG",
     "goofyGallery/img20.JPG",
     "goofyGallery/img21.JPG",
+    "goofyGallery/img22.jpg",
   ]
 
   return (
@@ -66,11 +69,11 @@ export default function Home() {
         <Header/>
        
         <div className={inter.className + " leading-[5rem] gallery-title section-header"}>ODPHI Memories</div>
-        <p className={inter.className + " gallery-body"}>Here are a couple of memorable photos from photoshoots, attending events, group pictures, and having a good time overall!</p>
+        <p className={inter.className + " gallery-body"}>Take a stroll through our collection of cherished moments captured during photoshoots, events, group gatherings, ceremonies, and simply enjoying life's pleasures. These snapshots offer a glimpse into the genuine joy and camaraderie shared among us. Join us in reminiscing about these heartwarming memories!</p>
         <Gallery images={memories}/>
 
         <div className={inter.className + " leading-[5rem] gallery-title section-header"}>Picture-Perfect Realness</div>
-        <p className={inter.className + " gallery-body"}>Here we offer a candid and heartwarming glimpse into the true essence of ODPHI, capturing the unscripted moments where we embrace our goofy, unified, and authentic selves, celebrating the genuine bonds that make our fraternity special!</p>
+        <p className={inter.className + " gallery-body"}>Explore a heartfelt portrayal of ODPHI's essence, showcasing candid moments that reflect our shared spirit of camaraderie and authenticity. These genuine snapshots capture our playful, unified selves, celebrating the unique bonds that define our fraternity's identity. Join us in savoring these unscripted glimpses into what makes our brotherhood truly special.</p>
         <Gallery images={goofy}/>
 
         <p className={inter.className + " text-[20px] mb-[2rem] mt-[5rem] ml-[5rem] mr-[5rem] text-center"}><i>&quot;And that&apos;s on Joe Cereceres&quot;</i> - Jose Mendez</p>
