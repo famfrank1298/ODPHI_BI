@@ -11,7 +11,7 @@ export default function Home() {
     "socialGallery/social1.jpg",
     "socialGallery/social2.jpg",
     "socialGallery/social3.jpg",
-    // "socialGallery/social4.JPG",
+    "socialGallery/social4.JPG",
     "socialGallery/social5.jpg",
     "socialGallery/social6.jpg",
     "socialGallery/social7.jpg",
@@ -24,7 +24,10 @@ export default function Home() {
     "socialGallery/social14.JPG",
     "socialGallery/social15.JPG",
     "socialGallery/social16.JPG",
-    "socialGallery/social17.jpg"
+    "socialGallery/social17.jpg",
+    "socialGallery/social18.jpg",
+    "socialGallery/social19.jpg",
+    "socialGallery/social20.JPG"
   ]
 
   return (

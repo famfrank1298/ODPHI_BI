@@ -1,36 +1,48 @@
-import { useEffect, useMemo, useState } from 'react';
-import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
-import Image from 'next/image';
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import { Autoplay, Parallax, Navigation } from 'swiper/modules';
+import { Manrope, Plus_Jakarta_Sans } from 'next/font/google';
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
-export default function Carousel() {
-    const images = useMemo (() => [
-        '/carousel/img1.JPG',
-        '/carousel/img2.JPG',
-        '/carousel/img3.JPG',
-    ], []);
-
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [fade, setFade] = useState(false);
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setFade(true); // Start the fading effect
-            setTimeout(() => {
-              setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-              setFade(false); // Reset the fading effect
-            }, 500); // Wait for 500ms before changing the image
-          }, 5000);
-
-        return () => {
-        clearInterval(timer);
-        };
-    }, [images]);
-
-    return (
-        <div className={`image-carousel ${fade ? 'fade' : ''}`}>
-            <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
-        </div>
-    );
+interface CarouselProps {
+    slides: string[];
 }
+
+const Carousel: React.FC<CarouselProps> = ({ slides }) => {
+    return (
+        <Swiper
+            speed={1000}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+            }}
+            loop={true}
+            parallax={true}
+            navigation={true}
+            modules={[Autoplay, Parallax, Navigation]}
+            className="swiper-container"
+        >
+            {slides.map((backgroundImage, index) => (
+                <SwiperSlide
+                    key={index}
+                    className="parallax-bg"
+                    style={{ backgroundImage }}
+                    data-swiper-parallax="-23%"
+                    
+                >
+                    <img className="slide-img" src={backgroundImage} alt={`Image ${index + 1}`} />
+                    <div className="slide-number">
+                        {String(index + 1)} / {slides.length}
+                    </div>
+                </SwiperSlide>
+            ))}
+        </Swiper>
+    );
+};
+
+export default Carousel;

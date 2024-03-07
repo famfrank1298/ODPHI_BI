@@ -6,8 +6,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Royal",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Giberto Moran",
@@ -16,8 +16,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Tiburón",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Ricardo Medina",
@@ -26,8 +26,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Kaunu",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "David Medina",
@@ -36,8 +36,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Illicit",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Raul Vargas",
@@ -46,8 +46,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Kanis",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Christopher Caro",
@@ -56,8 +56,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Flako",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Angel Sida",
@@ -66,8 +66,8 @@
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Blueprint",
         "pic-link": "/members/infamous.webp",
-        "cross-date": "April 14th, 2011",
-        "status": "graduated"
+        "cross-date": "April 14th, 2011 (Spring)",
+        "status": "Graduated"
     },
     {
         "name": "Luis Rodriguez",
@@ -76,8 +76,8 @@
         "greek-line": "Charter Brothers",
         "sir-name": "Sir Uneak",
         "pic-link": "/members/charter.webp",
-        "cross-date": "December 1st, 2011",
-        "status": "graduated"
+        "cross-date": "December 1st, 2011 (Fall)",
+        "status": "Graduated"
     },
     {
         "name": "David Caburnay",
@@ -86,8 +86,8 @@
         "greek-line": "Charter Brothers",
         "sir-name": "Sir Grizzly",
         "pic-link": "/members/charter.webp",
-        "cross-date": "December 1st, 2011",
-        "status": "graduated"
+        "cross-date": "December 1st, 2011 (Fall)",
+        "status": "Graduated"
     },
     {
         "name": "Jose Mendez",
@@ -169,7 +169,7 @@
         "sir-name": "Sir Temachti",
         "pic-link": "/members/hugo.JPG",
         "cross-date": "[Insert Crossing Date]",
-        "status": "graduated",
+        "status": "Graduated",
         "position": "Regional Director of Academics",
         "major": "LALS"
     },

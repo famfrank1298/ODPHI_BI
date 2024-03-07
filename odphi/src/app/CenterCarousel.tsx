@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
+import "./CenterCarousel.css"
 
 export default function CenterCarousel() {
     const images = useMemo (() => [
