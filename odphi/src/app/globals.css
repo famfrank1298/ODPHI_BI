@@ -279,9 +279,6 @@ main {
   max-height: 100%;
   display: block;
   margin: 0 auto;
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  transition: opacity 0.5s ease-in-out; */
 }
 
 .gallery-body {

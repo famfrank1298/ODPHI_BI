@@ -50,6 +50,7 @@ interface CarouselProps {
 
 const Carousel: React.FC<CarouselProps> = ({ images }) => {
     return (
+        <div className='swiperClass'>
         <Swiper
             speed={1000}
             autoplay={{
@@ -77,6 +78,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
                 </SwiperSlide>
             ))}
         </Swiper>
+        </div>
     );
 };
 

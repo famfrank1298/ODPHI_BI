@@ -1,7 +1,11 @@
-.swiper {
+.swiperClass {
   width: 45%;
   height: 45%;
-  background-color: rgb(239, 238, 238);
+  background: rgb(239, 238, 238);
+}
+
+.swiper {
+  background: rgb(239, 238, 238);
 }
 
 .swiper-slide {
@@ -26,6 +30,7 @@
   background-position: center;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .slide-img {

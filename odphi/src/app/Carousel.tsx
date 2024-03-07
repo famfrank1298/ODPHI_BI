@@ -3,6 +3,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import './Carousel.css';
 
 import { Autoplay, Parallax, Navigation } from 'swiper/modules';
 import { Manrope, Plus_Jakarta_Sans } from 'next/font/google';
@@ -25,18 +26,18 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
             parallax={true}
             navigation={true}
             modules={[Autoplay, Parallax, Navigation]}
-            className="swiper-container"
+            className="carousel-container"
         >
             {slides.map((backgroundImage, index) => (
                 <SwiperSlide
                     key={index}
-                    className="parallax-bg"
+                    className="carousel-bg"
                     style={{ backgroundImage }}
                     data-swiper-parallax="-23%"
                     
                 >
-                    <img className="slide-img" src={backgroundImage} alt={`Image ${index + 1}`} />
-                    <div className="slide-number">
+                    <img className="carousel-img" src={backgroundImage} alt={`Image ${index + 1}`} />
+                    <div className="carousel-number">
                         {String(index + 1)} / {slides.length}
                     </div>
                 </SwiperSlide>
