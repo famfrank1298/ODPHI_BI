@@ -82,17 +82,17 @@
 }
 
 .single-line {
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
+  padding: 24px;
 }
 
 .incoming {
   margin: 0 auto;
-	border-radius: 5%;
 	box-shadow: 0 0 0 0 rgb(172, 1, 1);
 	transform: scale(1);
 	animation: pulse 2s infinite;
-  width: 80%
+  width: 60%
 }
 
 @keyframes pulse {

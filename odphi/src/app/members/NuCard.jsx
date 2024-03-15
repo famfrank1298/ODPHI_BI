@@ -8,7 +8,7 @@ export default function NuCard(props) {
   return (
     <div>
       <div className={inter.className + " leading-[5rem] section-title line-titles"}>{props.info[0]["greek-line"]} Line</div>
-      <div className={inter.className + " line-titles section-name"}>{props.info[0]["line-name"]}</div>
+      <div className={inter.className + " line-titles section-name"}>Fall 2022 - {props.info[0]["line-name"]} Line</div>
       
       <div className="wrap grid-3">
         {props.info.map(function (bro, i) {
@@ -18,7 +18,7 @@ export default function NuCard(props) {
                     <p className="description text-center"><b>
                       Major: {props.info[i]["major"]}<br/>
                       {props.info[i]["status"] === "active" ? <p>Position: {props.info[i]["position"]}</p> : null} 
-                      Status: {props.info[i]["status"].toUpperCase()}
+                      {props.info[i]["status"] === "Graduated" ? <p>Status: {props.info[i]["status"]}</p> : null} 
                     </b></p>      
                   </div>
         })};

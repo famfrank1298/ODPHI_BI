@@ -71,11 +71,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center">
         <Header/>
        
-        <div className={inter.className + " leading-[5rem] gallery-title section-header"}>ODPHI Memories</div>
+        <div className={inter.className + " leading-[5rem] gallery-title section-header"}>- ODPHI Memories -</div>
         <p className={inter.className + " gallery-body"}>Take a stroll through our collection of cherished moments captured during photoshoots, events, group gatherings, ceremonies, and simply enjoying life&apos;s pleasures. These snapshots offer a glimpse into the genuine joy and camaraderie shared among us. Join us in reminiscing about these heartwarming memories!</p>
         <Gallery images={memories}/>
+        <br></br>
+        <br></br>
 
-        <div className={inter.className + " leading-[5rem] gallery-title section-header"}>Picture-Perfect Realness</div>
+        <div className={inter.className + " leading-[5rem] gallery-title section-header"}>- Picture-Perfect Realness -</div>
         <p className={inter.className + " gallery-body"}>Explore a heartfelt portrayal of ODPHI&apos;s essence, showcasing candid moments that reflect our shared spirit of camaraderie and authenticity. These genuine snapshots capture our playful, unified selves, celebrating the unique bonds that define our fraternity&apos;s identity. Join us in savoring these unscripted glimpses into what makes our brotherhood truly special.</p>
         <Gallery images={goofy}/>
 

@@ -1,7 +1,7 @@
 [
     {
         "name": "Luis Corona",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 1,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Royal",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Giberto Moran",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 2,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Tiburón",
@@ -21,7 +21,7 @@
     },
     {
         "name": "Ricardo Medina",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 3,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Kaunu",
@@ -31,7 +31,7 @@
     },
     {
         "name": "David Medina",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 4,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Illicit",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Raul Vargas",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 5,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Kanis",
@@ -51,7 +51,7 @@
     },
     {
         "name": "Christopher Caro",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 6,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Flako",
@@ -61,7 +61,7 @@
     },
     {
         "name": "Angel Sida",
-        "line-name": "I.N.F.A.M.O.U.S Line",
+        "line-name": "INFAMOUS Line",
         "number": 7,
         "greek-line": "Founding Brothers",
         "sir-name": "Sir Blueprint",
@@ -71,7 +71,7 @@
     },
     {
         "name": "Luis Rodriguez",
-        "line-name": "N.O.T.O.R.I.O.U.S Line",
+        "line-name": "NOTORIOUS Line",
         "number": 8,
         "greek-line": "Charter Brothers",
         "sir-name": "Sir Uneak",
@@ -81,7 +81,7 @@
     },
     {
         "name": "David Caburnay",
-        "line-name": "N.O.T.O.R.I.O.U.S Line",
+        "line-name": "NOTORIOUS Line",
         "number": 9,
         "greek-line": "Charter Brothers",
         "sir-name": "Sir Grizzly",
@@ -91,7 +91,7 @@
     },
     {
         "name": "Jose Mendez",
-        "line-name": "C.H.A.M.P",
+        "line-name": "CHAMP",
         "number": 45,
         "greek-line": "LAMBDA",
         "sir-name": "Sir Valiente",
@@ -103,7 +103,7 @@
     },
     {
         "name": "Kyle Romero",
-        "line-name": "P.R.E.S.T.I.G.I.O.U.S",
+        "line-name": "PRESTIGIOUS",
         "number": 46,
         "greek-line": "MU",
         "sir-name": "Sir Xochipilli",
@@ -115,7 +115,7 @@
     },
     {
         "name": "Alexander Diaz",
-        "line-name": "P.R.E.S.T.I.G.I.O.U.S",
+        "line-name": "PRESTIGIOUS",
         "number": 47,
         "greek-line": "MU",
         "sir-name": "Sir Cyrus",
@@ -127,7 +127,7 @@
     },
     {
         "name": "Diego Castillo",
-        "line-name": "P.R.E.S.T.I.G.I.O.U.S",
+        "line-name": "PRESTIGIOUS",
         "number": 48,
         "greek-line": "MU",
         "sir-name": "Sir Soñador",
@@ -139,7 +139,7 @@
     },
     {
         "name": "Francisco Hernendez",
-        "line-name": "P.R.E.S.T.I.G.I.O.U.S",
+        "line-name": "PRESTIGIOUS",
         "number": 49,
         "greek-line": "MU",
         "sir-name": "Sir Ley",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Frank Mensah",
-        "line-name": "P.R.E.S.T.I.G.I.O.U.S",
+        "line-name": "PRESTIGIOUS",
         "number": 50,
         "greek-line": "MU",
         "sir-name": "Sir Asante",
@@ -163,7 +163,7 @@
     },
     {
         "name": "Hugo Miranda",
-        "line-name": "N.O.I.R",
+        "line-name": "NOIR",
         "number": 51,
         "greek-line": "NU",
         "sir-name": "Sir Temachti",
@@ -175,7 +175,7 @@
     },
     {
         "name": "Jose Olivares",
-        "line-name": "N.O.I.R",
+        "line-name": "NOIR",
         "number": 52,
         "greek-line": "NU",
         "sir-name": "Sir Judas",
@@ -187,7 +187,7 @@
     },
     {
         "name": "Angel Tochimani",
-        "line-name": "N.O.I.R",
+        "line-name": "NOIR",
         "number": 53,
         "greek-line": "NU",
         "sir-name": "Sir Shun",
@@ -199,7 +199,7 @@
     },
     {
         "name": "Jonathan Reyes",
-        "line-name": "R.E.S.I.L.I.E.N.T",
+        "line-name": "RESILIENT",
         "number": 54,
         "greek-line": "XI",
         "sir-name": "Sir Wepa",
@@ -211,7 +211,7 @@
     },
     {
         "name": "Kelan Scott",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 55,
         "greek-line": "OMICRON",
         "sir-name": "Sir Raphael",
@@ -223,7 +223,7 @@
     },
     {
         "name": "Carlos Villalobos",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 56,
         "greek-line": "OMICRON",
         "sir-name": "Sir Yacatecuhtli",
@@ -235,7 +235,7 @@
     },
     {
         "name": "Daniel Martinez",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 57,
         "greek-line": "OMICRON",
         "sir-name": "Sir Arsenio",
@@ -247,7 +247,7 @@
     },
     {
         "name": "Oscar Canchola",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 58,
         "greek-line": "OMICRON",
         "sir-name": "Sir Dromefs",
@@ -259,7 +259,7 @@
     },
     {
         "name": "Jiovani Olvera",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 59,
         "greek-line": "OMICRON",
         "sir-name": "Sir Drako",
@@ -271,7 +271,7 @@
     },
     {
         "name": "Omar Alcantar",
-        "line-name": "G.R.A.N.D",
+        "line-name": "GRAND",
         "number": 60,
         "greek-line": "OMICRON",
         "sir-name": "Sir Santo",
