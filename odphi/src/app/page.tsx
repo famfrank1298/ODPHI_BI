@@ -6,14 +6,16 @@ import QuickFacts from './QuickFacts';
 import CenterCarousel from './CenterCarousel';
 import Pillar from './Pillar';
 import Header from "./Header";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import RegisterForm from "./cta/registerForm";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 
 export default function Home() {
 
-  const heroImages = ['/carousel/img1.JPG', '/carousel/img2.jpg', '/carousel/img3.jpg', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img7.jpg', '/carousel/img8.JPG'];
+  // const heroImages = ['/carousel/img1.JPG', '/carousel/img2.jpg', '/carousel/img3.jpg', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img7.jpg', '/carousel/img8.JPG'];
+  const heroImages = ['/carousel/img1.JPG', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img8.JPG'];
 
   return (
     <main className="flex min-h-screen flex-col items-center">
@@ -34,6 +36,7 @@ export default function Home() {
         <CenterCarousel/>
       </div>
 
+      {/* <RegisterForm/> */}
       <Footer/>
     </main>
   )
