@@ -7,7 +7,7 @@ import CenterCarousel from './CenterCarousel';
 import Pillar from './Pillar';
 import Header from "./Header";
 import Footer from "./Footer";
-import RegisterForm from "./cta/registerForm";
+// import RegisterForm from "./cta/registerForm";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
