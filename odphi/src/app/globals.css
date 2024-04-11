@@ -444,8 +444,10 @@ main {
     width: 80%;
   }
 
-  .nav-menu {
-    font-size: 10px;
+  .mott-header {
+    opacity: 0;
+    line-height: 3rem;
+    font-weight: 500;
   }
 
   .container {
@@ -462,9 +464,8 @@ main {
     bottom: -80%;
   }
 
-  .mott-header {
-    line-height: 3rem;
-    font-weight: 500;
+  .odp_logo {
+    width: 3rem;
   }
 
   .ss-body {
@@ -511,7 +512,7 @@ main {
   }
 
   .odp_logo {
-    width: 1.5rem;
+    width: 2.5rem;
   }
 
   .cta {
@@ -549,11 +550,11 @@ main {
   }
 
   .nav-menu {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .odp_logo {
-    width: 1rem;
+    width: 2rem;
   }
 
   .pillar-container {
@@ -612,12 +613,12 @@ main {
 @media (max-width: 436px) {
   .nav-menu {
     font-weight: 200;
-    font-size: 8px;
     margin-left: 0.5rem;
+    font-size: 15px;
   }
 
   .odp_logo {
-    margin-left: 2px;
+    width: 5rem;
   }
 
   .ss-body {
@@ -672,9 +673,30 @@ main {
     padding: 0.5rem;
     margin: 0.5rem;
   }
+
+  .nav-menu {
+    font-size: 12px;
+  }
+
+  .odp_logo {
+    width: 2.5rem;
+  }
 }
 
 @media (max-width: 350px) {
+  .nav-menu {
+    font-size: 12px;
+  }
+
+  .odp_logo {
+    width: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .mott-header {
+    display: none;
+  }
+
   .header-title {
     font-size: 25px;
   }

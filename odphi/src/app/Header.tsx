@@ -5,11 +5,6 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const inter = Manrope({ subsets: ["latin"] });
 import Link from "next/link";
 
-/*sm: Small screens (640px)
-md: Medium screens (768px - 1023px)
-lg: Large screens (1024px - 1199px)
-xl: Extra-large screens (1200px and up) */
-
 export default function Header() {
     return (
         <header className="red-background-image w-full h-[5rem]">
