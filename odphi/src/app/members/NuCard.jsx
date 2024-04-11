@@ -21,7 +21,7 @@ export default function NuCard(props) {
                       {props.info[i]["status"] === "Graduated" ? <p>Status: {props.info[i]["status"]}</p> : null} 
                     </b></p>      
                   </div>
-        })};
+        })}
       </div>
     </div>
   )

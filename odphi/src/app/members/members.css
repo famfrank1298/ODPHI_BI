@@ -36,7 +36,6 @@
   width: 100%;
 }
 
-/* Mu Line */
 .box h3 {
   font-size: 1.5em;
   font-weight: 700;
@@ -66,7 +65,16 @@
 
 .box {
   padding: 24px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border: 2px solid black;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(92, 16, 16, 0.5),
+      rgba(92, 16, 16, 0.5)
+    ),
+    url("/red-banner-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .box-image {
@@ -125,6 +133,10 @@
   .wrap {
     padding: 12px;
   }
+
+  .incoming {
+    width: 75%
+  }
 }
 
 @media (max-width: 660px) {
@@ -156,4 +168,55 @@
   .section-name {
     font-size: 15px;
   }
+
+  .single-line {
+    width: 85%;
+  }
+
+  .box h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
 }
+
+@media (max-width: 375px) {
+  .section-title {
+    font-size: 15px;
+  }
+  
+  .section-name {
+    font-size: 15px;
+  }
+
+  .single-line {
+    width: 85%;
+  }
+
+  .box h3 {
+    font-size: 1rem;
+  }
+  
+  .box p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrap {
+    width: 80%;
+  }
+
+  .single-line {
+    width: 90%;
+  }
+
+  .single-line .foundingText p {
+    font-size: 0.8rem;
+  }
+
+  .single-line .charterText p {
+    font-size: 0.8rem;
+  }
+}
+
