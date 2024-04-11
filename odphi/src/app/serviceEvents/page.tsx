@@ -41,14 +41,24 @@ export default function Home() {
 
       <div className={inter.className + " leading-[5rem] mt-[1rem] text-[30px] font-semibold section-header"}>Partners</div>
       <p className={inter.className + " partner-body"}>We proudly highlight some of the esteemed organizations we&apos;ve collaborated with, participating in their inspiring events with great enthusiasm. We look forward to nurturing these connections and forging new partnerships in the future to further our shared goals.</p>
+  
       <div className="partner-section">
-        <img src="serviceLogos/cardsforkidz_logo.jpg" alt="Cards for Kidz"/>
+        <div>Care for Friends</div>
+        <div>Cardz for Kidz</div>
+        <div>Rum Racing</div>
+        <div>Chicago Sinfonietta</div>
+        <div>Alliance for The Great Lakes</div>
+        <div>Touched by an Animal</div>
+        <div>Julia Ramirez - 12th Ward</div>
+        <div>Greater Chicago Food Depository</div>
+        {/* Need to ask organizations for permission before using their logos */}
+        {/* <img src="serviceLogos/cardsforkidz_logo.jpg" alt="Cards for Kidz"/>
         <img src="serviceLogos/12thward_logo.png" alt="12thWard"/>
         <img src="serviceLogos/ramracing_logo.png" alt="RumRacing"/>
         <img src="serviceLogos/greatlakes_logo.png" alt="GreatLakes"/>
         <img src="serviceLogos/gcfd_logo.png" alt="GCFD"/>
         <img src="serviceLogos/careforfriends_logo.jpg" alt="CareforFriends"/>
-        <img src="serviceLogos/forestpreserve_logo.png" alt="ForestPreserve"/>
+        <img src="serviceLogos/forestpreserve_logo.png" alt="ForestPreserve"/> */}
       </div>   
       <Footer/>
     </main>
