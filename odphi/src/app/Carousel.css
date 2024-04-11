@@ -103,3 +103,24 @@
   font-family: Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
+
+/* MEDIA QUERY */
+@media (max-width:450px) {
+  .carousel-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 238, 238);;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+  
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .carousel-number {
+    display: none;
+  }
+}
