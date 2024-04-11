@@ -300,7 +300,7 @@ main {
 
 .gallery-body {
   font-size: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-left: 5rem;
   margin-right: 5rem;
   text-align: center;
@@ -398,6 +398,10 @@ main {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+  gallery-title {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -444,7 +448,7 @@ main {
   }
 
   .gallery-title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
   }
 }
@@ -554,13 +558,14 @@ main {
   }
 
   .gallery-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
+    padding: 0 1rem;
   }
 
   .gallery-body {
     font-size: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -603,6 +608,18 @@ main {
   .quick-text {
     padding: 1rem;
   }
+
+  .gallery-title {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 0.5rem;
+  }
+
+  .gallery-body {
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
   
 }
 
@@ -621,5 +638,11 @@ main {
   .quick-text {
     font-size: 10px;
     padding: 0.5rem;
+  }
+
+  .gallery-title {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 0.5rem;
   }
 }
