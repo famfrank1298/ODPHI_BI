@@ -1,15 +1,18 @@
 /* FOOTER */
 .footer {
-  background:#353535;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(92, 16, 16, 0.5),
+      rgba(92, 16, 16, 0.5)
+    ),
+    url("/red-banner-bg.jpeg");
+  background-size: cover;
+  background-position: center;
   padding:30px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
   width: 100%;
   margin-top: 10rem;
-
-  background-image: radial-gradient(circle, rgba(219,0,0,0.8) 0%, rgba(133,7,7,0.6) 100%);
-    background-size: contain;
-    background-position: center;
 }
 
 .footer img {
@@ -20,30 +23,27 @@
   
 .copyright {
   width: 100%;
-  margin: 12px auto;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 15px;
-  font-weight: bold;
+  margin: 4px auto;
+  color: gray;
+  font-size: 20px;
 }
 
 .footer .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  margin: 10px auto;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 13px;
-  row-gap: 1rem;
-  font-weight: bold;
+  width: 40%;
+  margin: 3rem auto;
+  color: gray;
+  font-size: 15px;
 }
   
 .footer .row a {
-  text-decoration: none;
   transition: 0.5s;
 }
   
 .footer .row a:hover {
   color:#fff;
+  text-decoration: underline;
 }
   
 .footer .row a i {
@@ -62,14 +62,6 @@
     margin: 3px auto;
     font-size: 12px;
   }
-}
-
-.border-left {
-  border-left: 5px solid black;
-}
-
-.border-right {
-  border-right: 5px solid black;
 }
 
 @media (max-width:780px) {
