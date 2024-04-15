@@ -15,7 +15,7 @@ const inter = Manrope({ subsets: ["latin"] });
 export default function Home() {
 
   // const heroImages = ['/carousel/img1.JPG', '/carousel/img2.jpg', '/carousel/img3.jpg', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img7.jpg', '/carousel/img8.JPG'];
-  const heroImages = ['/carousel/img1.JPG', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img8.JPG'];
+  const heroImages = ['/carousel/img1.JPG', '/carousel/img4.JPG', '/carousel/img5.jpg', '/carousel/img6.jpg', '/carousel/img8.JPG', '/carousel/img9.JPG', '/carousel/img10.JPG'];
 
   return (
     <main className="flex min-h-screen flex-col items-center">
