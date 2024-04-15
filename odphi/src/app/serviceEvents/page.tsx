@@ -25,8 +25,9 @@ export default function Home() {
     "ServiceGallery/img14.JPG",
     "ServiceGallery/img15.jpg",
     "ServiceGallery/img16.JPG",
-    "ServiceGallery/img17.JPG",
-    "ServiceGallery/img18.JPG",
+    "ServiceGallery/img17.jpg",
+    "ServiceGallery/img18.jpg",
+    "ServiceGallery/img19.JPG",
   ]
 
   return (
