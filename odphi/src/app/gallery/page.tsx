@@ -45,8 +45,8 @@ export default function Home() {
   const goofy: string[] = [
     // "goofyGallery/img1.JPG",
     "goofyGallery/img2.jpg",
-    // "goofyGallery/img3.JPG",
-    // "goofyGallery/img4.JPG",
+    "goofyGallery/img3.jpg",
+    "goofyGallery/img4.jpg",
     // "goofyGallery/img5.JPG",
     // "goofyGallery/img6.JPG",
     "goofyGallery/img7.JPG",
