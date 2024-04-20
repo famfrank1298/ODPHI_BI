@@ -95,9 +95,10 @@ main {
               radial-gradient(ellipse at bottom, rgb(240, 46, 46), transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-             glow 2500ms linear infinite 2000ms;
+  color: rgb(240, 46, 46);
+  /* color: transparent; */
+  /* animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms; */
 }
 
 .header-title {
@@ -131,9 +132,7 @@ main {
 .mott-header {
   line-height: 5rem;
   font-size: 45px;
-  /* width: 45rem; */
   font-weight: 600;
-  /* position: absolute; */
 
   text-align: center;
   margin: 0 auto;
@@ -141,9 +140,10 @@ main {
               radial-gradient(ellipse at bottom, rgb(60, 1, 1), transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-             glow 2500ms linear infinite 2000ms;
+  color: rgba(239, 238, 238, 0.9);
+  /* color: transparent; */
+  /* animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms; */
 }
 
 /* PILLAR */

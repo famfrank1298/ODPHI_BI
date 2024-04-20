@@ -4,9 +4,10 @@
               radial-gradient(ellipse at bottom, #760303, transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-              glow 2500ms linear infinite 2000ms;
+  color: rgb(240, 46, 46);
+  /* color: transparent; */
+  /* animation: reveal 3000ms ease-in-out forwards 200ms,
+              glow 2500ms linear infinite 2000ms; */
   margin: 0rem auto;
 }
 
