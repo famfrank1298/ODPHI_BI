@@ -18,7 +18,7 @@
 }
 
 main {
-  background-color: rgb(239, 238, 238);
+  background-color: rgb(231, 217, 217);
   width: 100%;
 }
 
@@ -35,7 +35,7 @@ main {
 
 .nav-menu {
   font-weight: 300;
-  color:white;
+  color: white;
   font-size: 17px;
   margin-left: 1rem;
 }
@@ -43,7 +43,7 @@ main {
 /* CAROUSEL */
 /* @media all and (max-width: 480px) {} */
 .image-carousel img {
-  background-size:cover;
+  background-size: cover;
   transition: opacity 0.5s ease-in-out;
   margin-bottom: 2rem;
 }
@@ -67,13 +67,16 @@ main {
   margin: auto;
   margin-bottom: 5rem;
   padding: 2rem;
-  box-shadow: rgba(60, 1, 1, 0.4) 0px 0px 0px 3px, rgba(60, 1, 1, 0.3) 0px 0px 0px 6px, rgba(60, 1, 1, 0.2) 0px 0px 0px 9px, rgba(60, 1, 1, 0.1) 0px 0px 0px 12px, rgba(60, 1, 1, 0.05) 0px 0px 0px 15px;
+  box-shadow: rgba(60, 1, 1, 0.4) 0px 0px 0px 3px,
+    rgba(60, 1, 1, 0.3) 0px 0px 0px 6px, rgba(60, 1, 1, 0.2) 0px 0px 0px 9px,
+    rgba(60, 1, 1, 0.1) 0px 0px 0px 12px, rgba(60, 1, 1, 0.05) 0px 0px 0px 15px;
 }
 
 /* CenterCAROUSEL */
 .hs-carousel {
   width: 90%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   margin: 0 auto;
 }
 
@@ -92,7 +95,12 @@ main {
   text-align: center;
   margin: 0 auto;
   background: 50% 100% / 50% 50% no-repeat
-              radial-gradient(ellipse at bottom, rgb(240, 46, 46), transparent, transparent);
+    radial-gradient(
+      ellipse at bottom,
+      rgb(240, 46, 46),
+      transparent,
+      transparent
+    );
   -webkit-background-clip: text;
   background-clip: text;
   color: rgb(240, 46, 46);
@@ -116,7 +124,7 @@ main {
 }
 
 @keyframes reveal {
-  80%{
+  80% {
     letter-spacing: 8px;
   }
   100% {
@@ -137,7 +145,7 @@ main {
   text-align: center;
   margin: 0 auto;
   background: 50% 100% / 50% 50% no-repeat
-              radial-gradient(ellipse at bottom, rgb(60, 1, 1), transparent, transparent);
+    radial-gradient(ellipse at bottom, rgb(60, 1, 1), transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
   color: rgba(239, 238, 238, 0.9);
@@ -182,17 +190,17 @@ main {
   position: relative;
   width: 290px;
 }
-     
+
 .cta:hover img {
   top: -20%;
   filter: brightness(70%);
 }
 
-.cta:hover .text{
+.cta:hover .text {
   bottom: 0;
-  color:rgb(60, 1, 1);
+  color: rgb(60, 1, 1);
 }
-  
+
 .cta .pillar-img {
   bottom: 0;
   filter: brightness(100%);
@@ -203,7 +211,7 @@ main {
   transition: 0.5s ease-in-out;
   width: 100%;
 }
-  
+
 .cta .text {
   bottom: -60%;
   padding: 5px;
@@ -235,7 +243,7 @@ main {
   margin-top: 1rem;
   font-size: 20px;
   color: white;
-  
+
   /* width: 50%; */
   position: relative;
   padding: 3.2rem;
@@ -307,7 +315,8 @@ main {
 /* Gallery */
 .gallery {
   max-width: 45%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   position: relative;
 }
 
@@ -325,8 +334,6 @@ main {
   margin-right: 5rem;
   text-align: center;
 }
-
-
 
 /* /////////////////////////////////////////////////////////////////////// */
 /* MEDIA QUERIES */
@@ -358,7 +365,7 @@ main {
   .partner-section {
     width: 75%;
   }
-  
+
   .partner-section div {
     font-size: 15px;
     padding: 1rem;
@@ -387,7 +394,7 @@ main {
   .partner-section {
     width: 80%;
   }
-  
+
   .partner-section div {
     font-size: 15px;
     padding: 1rem;
@@ -433,7 +440,7 @@ main {
   .gallery-title {
     font-size: 40px;
   }
-  
+
   .partner-section div {
     font-size: 10px;
   }
@@ -533,7 +540,7 @@ main {
   .gallery {
     width: 70%;
   }
-  
+
   .partner-section img {
     width: 125px;
   }
@@ -656,7 +663,6 @@ main {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  
 }
 
 @media (max-width: 390px) {
@@ -668,7 +674,7 @@ main {
   .partner-section {
     width: 90%;
   }
-  
+
   .partner-section div {
     font-size: 10px;
     padding: 0.5rem;
